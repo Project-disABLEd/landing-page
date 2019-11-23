@@ -4,25 +4,33 @@ body
     text-align: center;
 }
 
-#content {
+.content {
     width: 100%;
     height: 100%;
 }
 
-#leftBar
+.leftBar
 {
     background-color: #fff;
-    float: left;
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    height: 90%;
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    border-radius: 10px;
 }
 
-#rightBar
+.mapContener
+{
+    background-color: #fff;
+    padding: 5px;
+}
+
+.map
 {
     background-color: #ddd;
-    float: left;
     width: 100%;
-    height: 100%;
+    height: 800px;
 }
 
 .clenFloat
@@ -30,8 +38,10 @@ body
     clear: both;
 }
 
-#footer
+.footer
 {
     background-color: #333;
+    padding: 5px;
+    color: #fff;
     
 }

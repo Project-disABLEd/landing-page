@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home page - disabled.pl</title>
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home page - disabled.pl</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+   
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://disabled.pl">
+                <img src="./assets/logo_full.png">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
                 <a class="navbar-item" href="https://disabled.pl">
-                    <img src="./assets/logo_full.png">
+                    Strona główna
                 </a>
 
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
+                <a class="navbar-item">
+                    Dla inwestorów
                 </a>
-            </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="https://disabled.pl">
-                        Strona główna
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Więcej
                     </a>
 
-                    <a class="navbar-item">
-                        Dla inwestorów
-                    </a>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            Więcej
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Galeria
                         </a>
-
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                Galeria
-                            </a>
-                            <a class="navbar-item">
-                                Jak pomóc?
-                            </a>
-                            <!----- TODO
+                        <a class="navbar-item">
+                            Jak pomóc?
+                        </a>
+                        <!----- TODO
                             <a class="navbar-item">
                                 Contact
                             </a>
@@ -55,38 +58,63 @@
                                 Report an issue
                             </a>
                             ------->
-                        </div>
-                    </div>
-                </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-primary is-inverted" href="https://github.com/Project-disABLEd/">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i>
-                                </span>
-                                <span>Repozytorium</span>
-                            </a>
-                            <a class="button is-light">
-                                Kontakt
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <section class="hero is-link is-fullheight-with-navbar" style="background: url('./assets/background.jpg')center center; background-size:cover;">
-            <div class="hero-body">
-                <div class="container">
-                    <p class="title" style="color: black;">
-                        Interaktywna mapa miejsc dla niepełnosprawnych
-                    </p>
-                    <p class="subtitle" style="color: black;">
-                        Q1 2020
-                    </p>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary is-inverted" href="https://github.com/Project-disABLEd/">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Repozytorium</span>
+                        </a>
+                        <a class="button is-light">
+                            Kontakt
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
-        <footer class="footer">disABLEd &copy; 2019/2020</footer>
-    </body>
+        </div>
+    </nav>
+    
+    <section class="hero is-link  is-fullheight-with-navbar" style="background: url('./assets/background.jpg')center center; background-size:cover;">
+        <div class="hero-body">
+            <div class="container ">
+                <div class="box" style="margin-right: 35%;">
+                    <div class="container ">
+                        <p class="title" style="color: black;">
+                            Interaktywna mapa miejsc dla niepełnosprawnych
+                        </p>
+                        <p class="subtitle" style="color: black; padding-left: 20px; padding-bottom: 20px;">
+                            Q1 2020
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+       
+    <section class="hero is-link  is-large" style="background: url('./assets/background.jpg')center center; background-size:cover;">
+        <div class="hero-body">
+            <div class="container ">
+                <div class="box" style="margin-right: 35%;">
+                    <div class="container ">
+                        <p class="title" style="color: black;">
+                            Interaktywna mapa miejsc dla niepełnosprawnych
+                        </p>
+                        <p class="subtitle" style="color: black; padding-left: 20px; padding-bottom: 20px;">
+                            Q1 2020
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">disABLEd &copy; 2019/2020</footer>
+    
+</body>
+
 </html>

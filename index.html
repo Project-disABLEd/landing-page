@@ -1,40 +1,88 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home page - disabled.pl</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://disabled.pl">
+                    <img src="./assets/logo_full.png">
+                </a>
 
-<head>
-    <meta charset="utf-8">
-    <title>disABLEd</title>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
 
-    <!-- Bootstrap v4 + jquery 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     --------------------- -->
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="https://disabled.pl">
+                        Strona główna
+                    </a>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+                    <a class="navbar-item">
+                        Dla inwestorów
+                    </a>
 
-    <link rel="stylesheet" href="main.css">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Więcej
+                        </a>
 
-
-</head>
-
-<body>
-
-    <div class="content">
-
-        <div class="leftBar">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis ac eros non commodo. Fusce at risus ut purus suscipit consequat. Aliquam erat volutpat. Pellentesque ullamcorper tellus eget sollicitudin efficitur. Proin urna justo, lobortis nec odio et, fermentum facilisis nibh. Donec dictum imperdiet nunc ac interdum. In posuere sapien arcu, nec bibendum enim euismod et. Sed porta lorem neque, vel tincidunt justo consectetur at.
-        </div>
-        
-       <div class="mapContener">
-           <div class="map"></div>
-       </div>
-       
-    </div>
-
-    <div class="footer">disABLEd 2019</div>
-
-</body>
-
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Galeria
+                            </a>
+                            <a class="navbar-item">
+                                Jak pomóc?
+                            </a>
+                            <!----- TODO
+                            <a class="navbar-item">
+                                Contact
+                            </a>
+                            <hr class="navbar-divider">
+                            <a class="navbar-item">
+                                Report an issue
+                            </a>
+                            ------->
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary is-inverted" href="https://github.com/Project-disABLEd/">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                                <span>Repozytorium</span>
+                            </a>
+                            <a class="button is-light">
+                                Kontakt
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero is-link is-fullheight-with-navbar" style="background: url('./assets/background.jpg')center center; background-size:cover;">
+            <div class="hero-body">
+                <div class="container">
+                    <p class="title" style="color: black;">
+                        Interaktywna mapa miejsc dla niepełnosprawnych
+                    </p>
+                    <p class="subtitle" style="color: black;">
+                        Q1 2020
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

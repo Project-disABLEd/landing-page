@@ -1,2 +1,2 @@
-# frontend
-Frontend for project disABLEd
+# Frontend
+Promotional site for disabled.pl

@@ -6,15 +6,35 @@
     color: #fff;
 }
 
-.title-m {
+.title-box {
     padding: 20px;
     background-color: #fff;
+    color: #fff !important;
 }
 
 .box {
-    border-radius: 20px
+    border-radius: 20px;
 }
 
 .center {
     text-align: center;
+}
+
+.subtitle {
+    color: #000 !important;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.subtitle-header {
+    color: #000 !important;
+    padding-bottom: 150px;
+}
+
+.title {
+    color: #000 !important;
+}
+
+.box {
+    background-color: #fff;
 }

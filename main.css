@@ -45,14 +45,11 @@ body {
 }
 
 .left-box {
-    margin-right;
-    35%;
     margin-bottom: 200px;
     text-align: left;
 }
 
 .right-box {
-    margin-left: 35%;
     margin-bottom: 200px;
     text-align: right;
 }

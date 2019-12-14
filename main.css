@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .footer {
     padding: 15px;
     text-align: center;
@@ -33,7 +37,7 @@
 }
 
 .title {
-    color: #000 !important;
+    color: #00a7ff !important;
 }
 
 .box {
